@@ -1,4 +1,8 @@
 # Greed
+<<<<<<< HEAD
+In the game of Greed we are looking to find all of the gems! Watch out for the rocks though, they will make you loose points. The more gems you find the more points you will accumulate. This isn't a race to the finish type game but one you can do at your own pace. 
+=======
+>>>>>>> c608b8f08a1b88a3107ca3029abf04058007a92f
 
 ## Getting Started
 ---
@@ -22,6 +26,20 @@ root                    (project root folder)
 +-- greed               (source code for game)
   +-- data              (data files for game)
   +-- game              (specific game classes)
+<<<<<<< HEAD
+     +--casting             (cast folder)
+        +--actor                (visible object methods)
+        +--artifact             (returns information for objects in game)
+        +--cast                 (list of all "actors" in the game)
+     +--directing           (director folder)
+        +--director             (directs the game)
+     +--services            (services folder)
+        +--keyboard_service    (for sensing where player is in game)
+        +--video_service       (draws game)
+     +--shared
+        +--color               (color for actors in game)
+        +--point               (gives the location for actors)
+=======
     +-- casting         
       +-- artifact
       +-- cast
@@ -33,6 +51,7 @@ root                    (project root folder)
     +-- shared
       +-- color
       +-- point
+>>>>>>> c608b8f08a1b88a3107ca3029abf04058007a92f
   +-- __main__.py       (entry point for program)
 +-- README.md           (general info)
 ```
@@ -49,4 +68,8 @@ root                    (project root folder)
 *Kathryn Thompson thompson21057@byui.edu
 *Morgan Luke morganluke@byui.edu
 
+<<<<<<< HEAD
 *Team 9 CSE-210 Winter 2022
+=======
+*Team 9 CSE-210 Winter 2022
+>>>>>>> c608b8f08a1b88a3107ca3029abf04058007a92f
